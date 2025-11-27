@@ -11,7 +11,7 @@
 
 ## 📰 News<a name="news"></a>
 
-- 🎉 **We have released our code and paper!** Check out our [arXiv paper](https://arxiv.org/) and [Code](https://github.com/) for more details.
+- 🎉 **We have released our code and paper!** Check out our [arXiv paper](https://arxiv.org/) and [Code](https://github.com/VoyageWang/VG-Refiner) for more details.
 
 ## Overview<a name="overview"></a>
 
