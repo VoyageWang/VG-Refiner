@@ -1,0 +1,162 @@
+# 大文件和模型文件
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.model
+
+# Wheel 文件
+*.whl
+
+# 数据文件
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.arrow
+*.feather
+*.hdf5
+*.h5
+
+# 图片和视频文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.sh
+
+# 允许 assests 文件夹中的图片文件
+!assests/*.jpg
+!assests/*.jpeg
+!assests/*.png
+!assests/*.gif
+!assests/*.bmp
+!assests/*.tiff
+
+
+# 压缩文件
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# 日志文件
+*.log
+*.out
+*.err
+slurm-*.out
+slurm-*.err
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch 相关
+lightning_logs/
+wandb/
+runs/
+tensorboard/
+checkpoints/
+*.ckpt
+*.pth.tar
+
+# Hugging Face 缓存
+.cache/
+transformers_cache/
+huggingface_hub/
+
+# 实验和输出目录
+output/
+outputs/
+results/
+logs/
+models/
+saved_models/
+experiments/
+
+# 资源文件夹
+
+
+# 数据文件夹（忽略内容但保留文件夹）
+data/*
+!data/.gitkeep
+
+# 模型权重文件夹（忽略内容但保留文件夹）
+model_weights/*
+!model_weights/.gitkeep
+
+# 配置文件 (包含敏感信息)
+.env
+.env.local
+.env.*.local
+config.ini
+secrets.json
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git 相关
+*.orig
+
+# 临时文件
+*.tmp
+*.temp
+tmp/
+temp/

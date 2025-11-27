@@ -1,0 +1,9 @@
+{{ content | trim }} 
+To assist you in recognition, you can call the following function to obtain the recognition results of other referring tools:
+```get_extra_ref_result()```
+
+# Note #:
+1. First, you should compare the difference between objects and find the most closely matched one. Then, output the thinking process in <think> </think>;
+2. You should use the provided helper functions to obtain additional referring tool results to improve recognition performance. After initial recognition, call the function strictly according to the following format: <function>\nget_extra_ref_result()\n</function> . The function response will then be placed in <tool>\nfunction response\n</tool> .
+3. Review the image content by referring to the function responses of other referring tools. You should analyze your initial referring results against those of other tools, paying particular attention to any discrepancies. (Both your own and other referring tools can make mistakes, so be sure to carefully review the image.) During this stage, your analysis and reflection should occur between the <rethink> and </rethink> blocks.
+4. Finally, provide the final identified answer between <answer> and </answer> i.e.`<answer>{"bbox_2d": [45, 120, 180, 250]}</answer>`.
