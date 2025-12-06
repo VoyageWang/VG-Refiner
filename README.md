@@ -56,7 +56,7 @@ pip install vllm==0.8.2
 cd src/rl 
 
 # It is recommended to manually install flash-attention first 
-# We use flas
+
 
 pip install -e .  # Install EasyR1 env
 ```
@@ -103,7 +103,12 @@ Model weights [VG-Refiner-7B](https://modelscope.cn/models/VoyageWang/VGRefiner-
 ```bash
 cd src/evaluation    
 
+# think-rethink
 bash src/evaluation/eval_grounding_precomputed_tool.sh
+
+# PiTER mode
+bash src/evaluation/evaluation_grounding_cot_tool.sh
+
 ```
 
 ## 🔍 Inference<a name="inference"></a>

@@ -34,7 +34,6 @@
 *.avi
 *.mov
 *.mkv
-*.sh
 
 # 允许 assests 文件夹中的图片文件
 !assests/*.jpg
