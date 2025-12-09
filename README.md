@@ -1,7 +1,7 @@
 <div align="center">
     <h1><b>VG-Refiner: Towards Tool-Refined Referring Grounded Reasoning via Agentic Reinforcement Learning</b></h1>
 
-[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg?logo=arXiv)](https://arxiv.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2512.06373-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2512.06373)
 [![Data](https://img.shields.io/badge/ModelScope-Data-orange.svg)](https://modelscope.cn/datasets/VoyageWang/VGRefiner_train)
 [![Model](https://img.shields.io/badge/ModelScope-Model-orange.svg)](https://modelscope.cn/models/VoyageWang/VGRefiner-7B)
 
@@ -11,7 +11,7 @@
 
 ## 📰 News<a name="news"></a>
 
-- 🎉 **We have released our code and paper!** Check out our [arXiv paper](https://arxiv.org/) and [Code](https://github.com/VoyageWang/VG-Refiner) for more details.
+- 🎉 **We have released our code and paper!** Check out our [arXiv paper](https://arxiv.org/abs/2512.06373) and [Code](https://github.com/VoyageWang/VG-Refiner) for more details.
 
 ## Overview<a name="overview"></a>
 
@@ -130,7 +130,7 @@ If you use our work, please cite our paper.
 @article{vg-refiner,
   title={VG-Refiner: Towards Tool-Refined Referring Grounded Reasoning via Agentic Reinforcement Learning},
   author={Yuji Wang and Wenlong Liu and Jingxuan Niu and Haoji Zhang and Yansong Tang},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
+  journal={arXiv preprint arXiv:2512.06373},
   year={2025}
 }
 ```
